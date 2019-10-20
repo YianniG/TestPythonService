@@ -4,7 +4,8 @@ After=multi-user.target
 
 [Service]
 Type=idle
-ExecStart=DISPLAY=:0 /usr/bin/python3 /usr/local/bin/start.py
+Environment="DISPLAY=:0"
+ExecStart=/usr/bin/python3 /usr/local/bin/start.py
 
 [Install]
 WantedBy=multi-user.target
