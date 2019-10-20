@@ -4,7 +4,7 @@ import tkinter as tk
 from random import seed, choice
 from string import ascii_letters
 
-seed(63)
+seed(84)
 
 colors = ('red', 'yellow', 'green', 'cyan', 'blue', 'magenta')
 def do_stuff():
